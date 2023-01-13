@@ -1,10 +1,18 @@
 {
   "Khanx.JetPack" : {
     "icon" : "./icons/JetPack.png",
-	"isPlaceable": false
+	"isPlaceable": false,
+	"categories" : [
+		"tool",
+		"khanx"
+    ]
   },
   "Khanx.JetPackFuel" : {
     "icon" : "./icons/JetPackFuel.png",
-	"isPlaceable": false
+	"isPlaceable": false,
+	"categories" : [
+		"consumables",
+		"khanx"
+    ]
   },
 }

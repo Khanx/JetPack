@@ -1,7 +1,7 @@
 [
 	{
 		"name": "JetPack",
-		"version": "0.0.0.5",
+		"version": "0.0.1.0",
 		"description" : "Adds a Jet Pack that allow you to fly while building",
 		"enableddefault" : true,
 		"dllpath": "JetPack.dll",
