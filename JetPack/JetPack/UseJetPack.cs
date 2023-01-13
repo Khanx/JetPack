@@ -28,13 +28,13 @@ namespace JetPack
 
             if (player.HasFlightMode)
             {
-                Chatting.Chat.Send(player, "You do not need to fill the jet pack's tank yet.");
+                Chatting.Chat.Send(player, "You do not need to fill the Jet Pack's tank yet.");
                 return;
             }
 
             if (!player.Inventory.TryRemove(fuelID))
             {
-                Chatting.Chat.Send(player, "The jetpack's tank is empty, you need Jet Pack Fuel (in inventory) to refill it.");
+                Chatting.Chat.Send(player, "The Jet Pack's tank is empty, you need Jet Pack Fuel (in inventory) to refill it.");
                 return;
             }
 
@@ -47,14 +47,14 @@ namespace JetPack
             {
                 player.SetFlightMode(false);
 
-                Chatting.Chat.Send(player, "The jet pack has run out of fuel.");
+                Chatting.Chat.Send(player, "The Jet Pack has run out of fuel.");
             }, timeFlying);
 
             ThreadManager.InvokeOnMainThread(() =>
             {
                 cancelFallDamage.Remove(player.ID);
 
-                Chatting.Chat.Send(player, "The jet pack's parachute has stopped working.");
+                Chatting.Chat.Send(player, "The Jet Pack's parachute has stopped working.");
             }, timeParachute);
         }
 
