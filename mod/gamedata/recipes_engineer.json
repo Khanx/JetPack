@@ -1,0 +1,18 @@
+[
+	{
+		"cooldown": 2400,
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name" : "Khanx.Engineer.JetPack",
+		"requiresScience": "Khanx.JetPack",
+		"requires" : [
+			{"amount":20,"type":"steelingot"},
+			{"amount":5,"type":"steelparts"},
+			{"amount":10,"type":"brassparts"},
+			{"amount":1,"type":"bookofknowledge"}
+		],
+		"results" : [
+			{"amount":1, "type":"Khanx.JetPack"}
+		]
+	}
+]

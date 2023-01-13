@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetPack", "JetPack\JetPack.csproj", "{38B42FB3-D295-4CB8-ADD8-5C3973CD491F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38B42FB3-D295-4CB8-ADD8-5C3973CD491F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B42FB3-D295-4CB8-ADD8-5C3973CD491F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B42FB3-D295-4CB8-ADD8-5C3973CD491F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B42FB3-D295-4CB8-ADD8-5C3973CD491F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED8D70DE-AEB0-42F7-9AF1-92CEDB387FA4}
+	EndGlobalSection
+EndGlobal

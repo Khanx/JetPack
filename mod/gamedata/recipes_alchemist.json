@@ -1,0 +1,24 @@
+[
+	{
+		"cooldown": 500,
+		"defaultLimit": 10,
+		"name": "Khanx.Alchemist.JetPackFuel",
+		"requires": [
+			{"amount":30,"type":"vialmineraloil"},
+			{"amount":5,"type":"steelingot"},
+		],
+		"requiresScience": "Khanx.JetPack",
+		"results": [
+			{
+				"amount": 1,
+				"type": "Khanx.JetPackFuel"
+			},
+			{
+				"amount": 30,
+				"chance": 0.95,
+				"isOptional": true,
+				"type": "vialempty"
+			}
+		]
+	}
+]

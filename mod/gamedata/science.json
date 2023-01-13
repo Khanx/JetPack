@@ -1,0 +1,29 @@
+[
+	{
+		"colonyPointRequirement": 15000,
+		"dependencies": [
+			"pipliz.glidersteel"
+		],
+		"icon": "./icons/JetPack.png",
+		"itemRequirements": [
+			{
+				"amount": 50,
+				"type": "bookofknowledge"
+			},
+			{
+				"amount": 50,
+				"type": "chestresource"
+			},
+			{
+				"type": "gunpowder"
+			},
+			{
+				"type": "brassparts"
+			},
+			{
+				"type": "steelparts"
+			}
+		],
+		"key": "Khanx.JetPack"
+	}
+]

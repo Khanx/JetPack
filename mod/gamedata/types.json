@@ -1,0 +1,10 @@
+{
+  "Khanx.JetPack" : {
+    "icon" : "./icons/JetPack.png",
+	"isPlaceable": false
+  },
+  "Khanx.JetPackFuel" : {
+    "icon" : "./icons/JetPackFuel.png",
+	"isPlaceable": false
+  },
+}

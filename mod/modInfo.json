@@ -1,0 +1,41 @@
+[
+	{
+		"name": "JetPack",
+		"version": "0.0.0.5",
+		"description" : "Adds a Jet Pack that allow you to fly while building",
+		"enableddefault" : true,
+		"dllpath": "JetPack.dll",
+		"compatibleversions":
+			[
+				"0.9.0"
+			],
+		"jsonFiles" : [
+			{
+				"relativePath" : "./gamedata/types.json",
+				"fileType": "addNewTypes",
+				"index": -1000000
+			},
+			{
+				"fileType": "addOrReplaceNPCRecipes",
+				"index": -1000000,
+				"npcType": "pipliz.alchemist",
+				"relativePath": "./gamedata/recipes_alchemist.json"
+			},
+			{
+				"fileType": "addOrReplaceNPCRecipes",
+				"index": -1000000,
+				"npcType": "pipliz.engineer",
+				"relativePath": "./gamedata/recipes_engineer.json"
+			},
+			{
+				"fileType": "addOrOverrideLocalization",
+				"relativePath": "./gamedata/localization/en-US/en-US.json"
+			},
+			{
+				"fileType": "addScience",
+				"index": -1000000,
+				"relativePath": "./gamedata/science.json"
+			},
+		]
+	}
+]

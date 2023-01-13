@@ -1,0 +1,20 @@
+{
+	"types":
+	{
+		"Khanx.JetPack": "Jet Pack",
+		"Khanx.JetPackFuel": "Jet Pack Fuel"
+	},
+	"typeuses":
+	{
+		"Khanx.JetPack": "Right click to use a Jet Pack Fuel to fly for 5 minutes (you can build while flying). Includes parachute.",
+		"Khanx.JetPackFuel": "Fuel used for the Jet Pack."
+	},
+	"sentences": {
+		"Khanx": {
+			"JetPack": {
+				"description": "Unlocks the Jet Pack which can be used to fly freely (you can build while flying).",
+				"name": "Jet Pack"
+			}
+		}
+	}
+}
